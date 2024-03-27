@@ -861,7 +861,127 @@ footer .sistema a{
 }
 /* main-3 */
 
+ /* main-4  */
 
+ .main-4 {
+    width: 90%;
+    margin: auto;
+  position: relative;
+  max-width: 1400px;
+  margin-bottom: 50px;
+}
+.main-4 h3{
+    width: 90%;
+   
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1200px;
+ margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.main-4 .card img{
+width: 100%;
+}
+.main-4 .swiper-button-next2{
+position: absolute;
+top: 50%;
+z-index: 2;
+right: -35px;
+width: 70px;
+height: 70px;
+background-color: rgba(255, 255, 255, 0.363);
+backdrop-filter: blur(30px);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main-4 .card{
+    max-width: 450px;
+    margin: auto;
+}
+.main-4 .bx-chevron-left, .main-4 .bx-chevron-right{
+font-size: 40px;
+color: #16BBFE;
+}
+.main-4 .swiper-button-prev2{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: -35px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(30px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.main-4 .card_img{
+    position: relative;
+}
+.main-4 .card_img .player{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: #FF9315;
+    box-shadow:  0px 0px 1px 3px #ff921549;
+    color: white;
+    display: flex;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.main-4 .card_img .player:hover{
+    scale: 1.1;
+}
+.main-4 .card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.3px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.main-4 .card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+margin-top: 2px;
+font-weight: 400;
+line-height: 22.05px;
+text-align: left;
+
+}
+    @media (max-width:991px){
+        .main-4 h3{
+            font-size: 23px;
+        }
+        .main-4 .swiper-button-prev2{
+            left: -25px;
+            width: 50px;
+            height: 50px;
+        }
+        .main-4 .swiper-button-next2{
+            right: -25px;
+            width: 50px;
+            height: 50px; 
+        }
+        .main-4 .card_img .player{
+            width: 50px;
+            height: 50px;
+        }
+    }
 
 /* main-5 */
 /* .navbar{

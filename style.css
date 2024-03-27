@@ -667,7 +667,8 @@ text-align: left;
         }
         .section1 .section1_titles h3{
             font-size: 15px;
-        }
+        } 
+     
 }
 @media(max-width:500px){
     .section1_card {
@@ -675,6 +676,32 @@ text-align: left;
         margin: 0px;
         max-width: 350px;
     } 
+    .header_form {
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    .form_chack {
+        font-size: 10px;
+    }
+    .send_message input{
+        padding: 15px;
+    }
+    .send_message button  {
+    padding: 15px;
+    }
+    .header_form h4 {
+        font-size: 15px;
+    }
+    .header_form h4 span{
+        font-size: 15px;
+    }
+   .menu_header{
+    width: 43px;
+   }
+   .menu_header p {
+font-size: 8px;   
+}
 }
 
 
@@ -686,7 +713,7 @@ text-align: left;
 
 .section1 .body_section1{
     display: grid;
-    grid-template-columns:auto 350px;
+    grid-template-columns:auto 400px;
     min-height: 300px;
     align-items: stretch;
     width: 90%;
@@ -696,13 +723,11 @@ text-align: left;
 }
 .section1 .select_dom{
     background: #FBFBFB;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-bottom: 20px;
 
 }
-.section1 .reklama_dom{
-    background-color: green;
 
-}
 .section1  .progress{
 width: 90%;
 position: relative;
@@ -727,7 +752,6 @@ max-width: 900px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 16px;
 color: #1C1C1C;
-
 font-weight: 400;
 line-height: 18px;
 letter-spacing: 0.47999998927116394px;
@@ -739,7 +763,6 @@ text-align: left;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 42px;
     letter-spacing: 1.440000057220459px;
     text-align: left;
     margin-left: 3%;
@@ -749,13 +772,15 @@ text-align: left;
 }
 .section1 .card_image{
 background-color: #16BBFE;
-overflow: hidden;
+overflow: hidden !important;
+width: 100% !important; 
 border-radius: 20px;
 border-bottom-right-radius: 0px;
 }
 .section1 .card_image1{
     background-color: white;
     overflow: hidden;
+    width: 100%;
     border-radius: 20px;
     border-bottom-right-radius: 0px;
     }
@@ -765,6 +790,12 @@ border-bottom-right-radius: 0px;
   top: 5px;
     }
 
+    .section1 .card_image1 img{
+        width: 100% !important;
+        position: relative;
+        top: 5px;
+          }
+      
 .section1 .select_card{
     width: 100%;
 }
@@ -832,4 +863,380 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 border-radius: 15px;
 color: white;
 font-weight: 700;
+}  
+.section1 .reklama_dom{
+    /* background-color: green; */
+   background: url("./image/section/Group\ 38701.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    align-items: center;
+    justify-content: space-around;
 }
+.section1 .select_title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section1 .reklama_dom h4{
+    width: 80%;
+    /* margin: auto; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3199999928474426px;
+    text-align: center;
+}
+.section1 .media_anime{
+    background: url('./image/Rectangle\ 705.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 80%;
+    min-height: 200px;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;align-items: center;justify-content: center;
+    flex-direction: column;
+}
+.section1 .aleksandr {
+    width: 80%;
+}
+.section1 .aleksandr h5{
+    margin-bottom: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+font-weight: 700;
+letter-spacing: 0.7200000286102295px;
+text-align: left;
+
+}
+.section1 .aleksandr p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 1.2000000476837158px;
+text-align: left;
+
+}
+.section1 .aleksandr p i{
+    color: white;
+    /* margin-right: 20px; */
+    padding-right: 10px;
+}
+.section1 .media_anime .icons{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 3px #ff921591 ; 
+    display: flex;
+    font-size: 23px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #FFAF51 0%, #FF9315 100%);
+transition: 1s;
+}
+.section1 .media_anime .icons:hover{
+    scale: 1.2;
+}
+.section1 .media_anime {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+    color: white;
+}
+@media (max-width:991px){
+    .section1 .body_section1 {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .section1 .body_section1 h2{
+        font-size: 23px;
+    }
+    .section1 .body_section1 {
+    width: 100%;
+    }
+    .section1 .select_body_section1 {
+        width: 95%;
+        margin: auto
+        ;
+    }
+}
+@media(max-width:500px){
+    .section1 .body_section1 {
+        width: 98%;
+    }
+    .body_section1 button {
+    width: 100px;
+    padding: 10px;
+    font-size: 12px;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* section2 */
+
+.section2 h3{
+width: 90%;
+text-align: center;
+margin: auto;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2.5vw;
+font-weight: 400;
+text-align: center;
+max-width: 1200px;
+
+}
+
+.section2 .mySwiper1{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+ :root {
+    --swiper-navigation-size:30px !important;
+}
+
+.section2 .swiper-slide{
+    height: 400px;
+    width: 50% !important;
+    /* background-color: red; */
+
+}
+.section2 .swiper-button-prev1, .section2 .swiper-button-next1{
+    /* padding: 20px; */
+    background: rgba(255, 255, 255, 0.37);
+    width: 50px;
+    height: 50px;
+font-size: 23px !important;
+backdrop-filter: blur(30px);
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* padding-left: 20px; */
+    /* opacity: 0.7; */
+}
+.section2 .swiper-button-next1{
+    position: absolute;
+    right: 20%;
+    top: 180px;
+    /* border: 2px solid #2C8FDB; */
+    z-index: 12;
+    color: #2C8FDB;
+   
+}
+.section2 .swiper-button-prev1{
+    position: absolute;
+    left: 20%;
+    top: 180px;
+    z-index: 12;
+    font-size: 33px;
+    color: #2C8FDB;
+    /* border: 2px solid #2C8FDB; */
+}
+
+.section2 .bx-chevron-right, .section2 .bx-chevron-left{
+font-size: 30px;
+}
+.section2 .swiper-button-next:after, .section2 .swiper-button-prev:after{
+width: 30px;
+height: 30px;
+}
+@media(max-width:991px){
+    .section2 h3{
+        font-size: 23px;
+    } 
+    .section2 .swiper-slide{
+        height: 300px;
+        width: 50% !important;
+        /* background-color: red; */
+    
+    }
+    .section2 .swiper-button-next1{
+        position: absolute;
+        right: 20%;
+        top: 120px;
+        /* border: 2px solid #2C8FDB; */
+        z-index: 12;
+        color: #2C8FDB;
+       
+    }
+    .section2 .swiper-button-prev1{
+        position: absolute;
+        left: 20%;
+        top: 120px;
+        z-index: 12;
+        font-size: 33px;
+        color: #2C8FDB;
+        /* border: 2px solid #2C8FDB; */
+    }
+}
+
+@media(max-width:769px){
+ 
+    .section2 .swiper-slide{
+        height: 300px;
+        width:100% !important;
+        /* background-color: red; */
+    
+    }
+    .section2 .swiper-button-next1{
+        position: absolute;
+        right: 2%;
+        top: 120px;
+        /* border: 2px solid #2C8FDB; */
+        z-index: 12;
+        color: #2C8FDB;
+       
+    }
+    .section2 .swiper-button-prev1{
+        position: absolute;
+        left: 2%;
+        top: 120px;
+        z-index: 12;
+        font-size: 33px;
+        color: #2C8FDB;
+        /* border: 2px solid #2C8FDB; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main-4 {
+    width: 90%;
+    margin: auto;
+  position: relative;
+  max-width: 1400px;
+}
+.main-4 h3{
+    width: 90%;
+   
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+    max-width: 1200px;
+ margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.main-4 .card img{
+width: 100%;
+}
+.main-4 .swiper-button-next2{
+position: absolute;
+top: 50%;
+z-index: 2;
+right: -35px;
+width: 70px;
+height: 70px;
+background-color: rgba(255, 255, 255, 0.363);
+backdrop-filter: blur(30px);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main-4 .card{
+    max-width: 450px;
+    margin: auto;
+}
+.main-4 .bx-chevron-left, .main-4 .bx-chevron-right{
+font-size: 40px;
+color: #16BBFE;
+}
+.main-4 .swiper-button-prev2{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    left: -35px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.363);
+    backdrop-filter: blur(30px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.main-4 .card_img{
+    position: relative;
+}
+.main-4 .card_img .player{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    background-color: #FF9315;
+    box-shadow:  0px 0px 1px 3px #ff921549;
+    color: white;
+    display: flex;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.main-4 .card_img .player:hover{
+    scale: 1.1;
+}
+.main-4 .card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.3px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.main-4 .card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 18px;
+margin-top: 2px;
+font-weight: 400;
+line-height: 22.05px;
+text-align: left;
+
+}
+    @media (max-width:991px){
+        .main-4 h3{
+            font-size: 23px;
+        }
+        .main-4 .swiper-button-prev2{
+            left: -25px;
+            width: 50px;
+            height: 50px;
+        }
+        .main-4 .swiper-button-next2{
+            right: -25px;
+            width: 50px;
+            height: 50px; 
+        }
+        .main-4 .card_img .player{
+            width: 50px;
+            height: 50px;
+        }
+    }
