@@ -1815,3 +1815,20 @@ text-align: center;
 width: 100%;
 
 }
+
+@media (max-width:1200px){
+    .main-13 .cards_m13{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        } 
+}
+@media (max-width:700px){
+    .main-13 .cards_m13{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: center;
+        } 
+}
