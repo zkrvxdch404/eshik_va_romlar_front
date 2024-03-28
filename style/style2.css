@@ -27,9 +27,7 @@ footer .logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-footer .logo p{
-    font-weight: 100 !important;
-}
+
 footer .doc{
     width: 30px;
     height: 30px;
@@ -1021,17 +1019,26 @@ text-align: left;
    /* letter-spacing: 0.1px; */
    margin-top: -10%;
    /* width: 25%; */
+   font-family: "Roboto", sans-serif;
+
    margin-bottom: 30px;
    width: 100%;
    min-width: 300px;
 }
 .navbar12 h1{
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
+    font-family: "Roboto", sans-serif;
+
 font-size: 3vw;
 text-align: center;
 margin-top: 40px;
 font-weight: 50;
 }
+.card_o{
+    font-family: "Roboto", sans-serif;
+
+}
+
 .card_1 p{
     /* color: #00000075; */
 margin-top: 10px;
@@ -1043,8 +1050,13 @@ font-family: 'Franklin Gothic Medium';
 }
 .card_1 h2{
     margin-top: 15px;
-    font-family: 'Franklin Gothic Medium';
+    /* font-family: 'Franklin Gothic Medium'; */
+    font-family: "Roboto", sans-serif;
     
+}
+.card_1 p{
+    font-family: "Roboto", sans-serif;
+
 }
 .aylana{
     width: 66px;
@@ -1546,6 +1558,7 @@ text-align: left;
 
 .main-11 .text_m11 .card_m11 img{
 border-radius: 20px;
+margin-bottom: 10px;
 }
     .main-11 .text_m11 .card_m11 h6{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1815,6 +1828,7 @@ text-align: center;
 width: 100%;
 
 }
+
 
 @media (max-width:1200px){
     .main-13 .cards_m13{
