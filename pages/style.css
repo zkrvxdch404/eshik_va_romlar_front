@@ -1405,3 +1405,123 @@ margin-top: 30px;
 /* main-8 */
 
 
+
+.main-10 .cards_m10{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main-10 .card_m10{
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    align-items: start;
+}
+.main-10 .card_m10 img{
+   height: 100%;
+    position: absolute;
+    bottom: 0px;
+ 
+    right: 0px;
+}
+.main-10 .card_m10 h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 23px;
+font-weight: 700;
+margin-left: 20px;
+letter-spacing: 1.2000000476837158px;
+text-align: left;
+position: relative;
+color: white;
+z-index: 12;
+}
+.main-10 .card_m10 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    font-weight: 750;
+    letter-spacing: 1.2000000476837158px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 12;
+    margin-left: 60px;
+}
+
+.main-10 .card_m10 h1 sub{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 750;
+    letter-spacing: 1.2000000476837158px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    
+}
+@media (max-width:1200px){
+    .main-10 .card_m10{
+        width: 45%;
+        margin-top: 20px;
+    }
+}
+@media (max-width:900px){
+    .main-10 .card_m10{
+        width: 90%;
+        max-width: 500px;
+        margin-top: 20px;
+    }
+}
+@media (max-width:460px){
+    .main-10 .card_m10{
+    height: 140px;
+    }
+    .main-10 .card_m10 h2{
+        font-size: 15px;
+    }
+    .main-10 .card_m10 h1{
+        font-size: 50px;
+    }
+    .main-10 .card_m10 h1 sub{
+        font-size: 15px;
+        position: relative;
+        top: -10px;
+    }
+}
+
+
+
+
+
+
+.main-11 {
+    background: url('../image/Rectangle\ 1860.png');
+    height: 949px;
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.main-11 .decor_img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+}
+.main-11 .decor_img1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 50%;
+}
+.main-11 .image_m11{
+    width: 100%;
+}
+.main-11 .image_m11 img{
+    width: 100%;
+}
