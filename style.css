@@ -1418,6 +1418,8 @@ height: 30px;
     font-family: 'Roboto',sans-serif;
     margin-bottom: 30px;
     width: 90%;
+    max-width: 350px;
+    margin: auto;
 }
 .type img{
     width: 90%;
@@ -1488,6 +1490,13 @@ height: 30px;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 40px;
+    }
+    .artline {
+    padding: 0px;
+    }
+    .product{
+margin: 0px;
+margin: auto;
     }
 }
 
