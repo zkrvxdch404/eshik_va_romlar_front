@@ -1215,7 +1215,7 @@ margin-top: 20px;
     background: url("../image/4L0A1040\ 1.png");
     width: 100%;
     background-size: cover !important;
-    min-height: 914px;
+    /* min-height: 914px; */
     display: flex;
     align-items: center;
     position: relative;
@@ -1243,8 +1243,9 @@ margin-top: 20px;
     margin-left: 40px;
 
   }
-  .byudjet h1{
+  .vw_big{
     font-size: 3vw;
+    /* background-color: red; */
     font-weight: 400;
   }
   .free1{
@@ -1276,7 +1277,7 @@ margin-top: 20px;
         
     
       }
-      .byudjet h1{
+      .vw_big {
         font-size: 3vw;
         font-weight: 400;
         margin-top: 40px;
@@ -1295,7 +1296,7 @@ margin-top: 20px;
         
     
       }
-      .byudjet h1{
+      .vw_big {
         font-size: 3vw;
         font-weight: 400;
         margin-top: 40px;
@@ -1350,6 +1351,8 @@ margin-top: 30px;
   }
   .form h1{
     font-weight: 400;
+    margin-top: 20px;
+    font-size: 2.4vw;
   }
   .text_inp input{
     /* width: 0%; */
