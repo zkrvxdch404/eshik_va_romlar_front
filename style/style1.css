@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+       font-family: "Roboto", sans-serif;
+
     text-decoration: none;
 }
 
@@ -255,7 +256,8 @@
 }
 
 .past_header_left h1 {
-    font-family: "Poppins", sans-serif;
+       font-family: "Roboto", sans-serif;
+
     font-size: 64px;
     font-weight: 700;
     line-height: 78.4px;
@@ -264,7 +266,8 @@
 }
 
 .past_header_left h1 span {
-    font-family: "Poppins", sans-serif;
+       font-family: "Roboto", sans-serif;
+
     font-size: 64px;
     font-weight: 400;
     line-height: 78.4px;
@@ -589,7 +592,8 @@
     }
 
     .past_header_left h1 {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 60px;
         font-weight: 700;
         line-height: 78.4px;
@@ -742,7 +746,8 @@
     }
 
     .past_header_left h1 {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 55px;
         font-weight: 700;
         line-height: 78.4px;
@@ -750,7 +755,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 55px;
         line-height: 78.4px;
         margin-bottom: 2rem;
@@ -767,7 +773,8 @@
     }
 
     .past_header_left h1 {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 50px;
         font-weight: 700;
         line-height: 70px;
@@ -775,7 +782,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 50px;
         line-height: 70px;
         margin-bottom: 2rem;
@@ -815,7 +823,8 @@
     }
 
     .past_header_left h1 {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 40px;
         font-weight: 700;
         line-height: 70px;
@@ -823,7 +832,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 40px;
         line-height: 70px;
         margin-bottom: 2rem;
@@ -855,7 +865,8 @@
 
     .past_header_left h1 {
         text-align: center;
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 35px;
         font-weight: 700;
         line-height: 50px;
@@ -864,7 +875,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 35px;
         line-height: 50px;
         margin-bottom: 2rem;
@@ -921,7 +933,8 @@
 
     .past_header_left h1 {
         text-align: center;
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 25px;
         font-weight: 700;
         line-height: 30px !important;
@@ -930,7 +943,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 25px;
         line-height: 30px;
         margin-bottom: 2rem;
@@ -1039,7 +1053,8 @@
 
     .past_header_left h1 {
         text-align: center;
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 20px;
         font-weight: 700;
         line-height: 30px !important;
@@ -1048,7 +1063,8 @@
     }
 
     .past_header_left h1 span {
-        font-family: "Poppins", sans-serif;
+           font-family: "Roboto", sans-serif;
+
         font-size: 22px;
         line-height: 30px;
         margin-bottom: 2rem;
