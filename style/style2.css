@@ -1714,7 +1714,6 @@ text-align: left;
 
 }
 .main-12 h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 54px;
 font-weight: 400;
 text-align: left;
@@ -1758,29 +1757,7 @@ margin-top: 10px;
 .main-12 .card_m12{
     margin-top: 30px;
 }
-.main-12 .text_m12 button{
-margin-top: 30px;
-width: 90%;
-max-width: 500px;
-height: 100px;
-/* padding: 0px 52px 0px 52px; */
-gap: 0px;
-border-radius: 20px;
-border: none;
-border: 0px 0px 5px 0px;
-opacity: 0px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 16px;
-font-weight: 750;
-line-height: 23px;
-letter-spacing: 2.799999952316284px;
-text-align: center;
-color: white;
-background: #2C8FDB;
-border-bottom: 5px solid #2C8FDB;
-box-shadow:inset 0px 0px 12px  white;
-margin-bottom: 30px;
-}
+
 @media(max-width:991px){
     .main-12 .cards_m12 {
         margin-top: 30px;
@@ -1808,9 +1785,6 @@ margin-bottom: 30px;
     }  */
     .main-12 h3{
         font-size: 23px;
-    }
-    .main-12 .text_m12 button{
-        height: 50px;
     }
 }
 
