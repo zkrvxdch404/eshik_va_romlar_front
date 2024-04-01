@@ -2087,6 +2087,7 @@ margin: auto;
 
 .head_text {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .sklad_cards {
@@ -2099,6 +2100,22 @@ margin: auto;
 
 .sklad_card {
     width: 200px;
+    text-align: center;
+}
+
+.sklad_card p {
+    line-height: 25px;
+}
+
+.card_m12_imgs img {
+    border-radius: 0 !important;
+}
+
+.card_m12_imgs {
+    margin: 0.5rem;
+}
+
+.card_m12_imgs p {
     text-align: center;
 }
 
@@ -2276,7 +2293,7 @@ margin: auto;
 
 .other_foot {
     position: relative;
-    margin-top: 15%;
+    margin-top: 5%;
     overflow: hidden;
 }  
 
